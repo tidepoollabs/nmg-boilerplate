@@ -44,6 +44,12 @@ To populate your database with initial data, use the seeders located at `/src/da
 pnpm db:migration:seed
 ```
 
+## Integrating REST APIs
+
+While this boilerplate primarily focuses on GraphQL, it's designed to be flexible, allowing for the integration of REST APIs alongside GraphQL. This enables you to take advantage of REST's simplicity and scalability for certain operations, providing a versatile approach to your application's data layer.
+
+
+
 ### Creating Migrations
 When you need to create a new database schema migration, first ensure your module and entity are properly defined. Then, execute the following command to generate a new migration file:
 
